@@ -1,0 +1,340 @@
+[2025-10-20 03:26:55] ls  - SUCCESS
+[2025-10-20 03:27:38] cd shell.log - ERROR: cd: [WinError 267] ������� ������ ��� �����: 'C:\\Users\\ser20\\Documents\\py_lab_2\\shell.log'
+[2025-10-20 03:28:22] cd .. - SUCCESS
+[2025-10-20 03:28:33] cd py_lab_2 - SUCCESS
+[2025-10-20 03:28:45] cd shell.log - ERROR: cd: [WinError 267] ������� ������ ��� �����: 'C:\\Users\\ser20\\Documents\\py_lab_2\\shell.log'
+[2025-10-20 03:28:52] cd d - ERROR: cd: Directory 'C:\Users\ser20\Documents\py_lab_2\d' doesn't exist
+[2025-10-25 11:47:49] ls -1  - SUCCESS
+[2025-10-25 11:47:55] ls -l - ERROR: ls: [WinError 3] ������� �� ������� ����� ��������� ����: '-l'
+[2025-10-25 11:51:51] ls -1  - SUCCESS
+[2025-10-25 11:51:56] ls -l - ERROR: ls: [WinError 3] ������� �� ������� ����� ��������� ����: '-l'
+[2025-10-25 11:53:39] ls -l - ERROR: ls: [WinError 3] ������� �� ������� ����� ��������� ����: '-l'
+[2025-10-25 12:02:28] ls -d - ERROR: ls: [WinError 3] ������� �� ������� ����� ��������� ����: '-d'
+[2025-10-25 12:02:31] ls d - ERROR: ls: [WinError 3] ������� �� ������� ����� ��������� ����: 'd'
+[2025-10-25 12:03:12] ls & - ERROR: ls: [WinError 3] ������� �� ������� ����� ��������� ����: '&'
+[2025-10-25 12:03:16] ls -l - ERROR: ls: [WinError 3] ������� �� ������� ����� ��������� ����: '-l'
+[2025-10-25 12:03:31] ls -l - ERROR: ls: [WinError 3] ������� �� ������� ����� ��������� ����: '-l'
+[2025-10-25 12:08:37] ls -l - ERROR: ls: [WinError 3] ������� �� ������� ����� ��������� ����: '-l'
+[2025-10-25 12:08:45] ls -1  - SUCCESS
+[2025-10-25 12:10:01] ls -l - ERROR: ls: [WinError 3] ������� �� ������� ����� ��������� ����: '-l'
+[2025-10-25 12:10:06] ls -1  - SUCCESS
+[2025-10-25 12:10:27] ls -l - ERROR: ls: [WinError 3] ������� �� ������� ����� ��������� ����: '-l'
+[2025-10-25 12:11:02] ls -1  - SUCCESS
+[2025-10-25 12:11:08] ls -1  - SUCCESS
+[2025-10-25 12:11:11] ls -1  - SUCCESS
+[2025-10-25 12:11:28] ls -l - ERROR: ls: [WinError 3] ������� �� ������� ����� ��������� ����: '-l'
+[2025-10-25 12:11:32] ls -1  - SUCCESS
+[2025-10-25 12:13:27] ls -l - ERROR: ls: [WinError 3] ������� �� ������� ����� ��������� ����: '-l'
+[2025-10-25 12:13:37] ls -l - ERROR: ls: [WinError 3] ������� �� ������� ����� ��������� ����: '-l'
+[2025-10-25 12:13:48] ls -1  - SUCCESS
+[2025-10-25 12:15:32] ls -l  - SUCCESS
+[2025-10-25 12:15:50] ls -1 - ERROR: ls: [WinError 3] ������� �� ������� ����� ��������� ����: '-1'
+[2025-10-25 12:15:53] ls -l  - SUCCESS
+[2025-10-25 12:16:04] ls -l - ERROR: ls: [WinError 3] ������� �� ������� ����� ��������� ����: '-l'
+[2025-10-25 12:16:17] ls -1  - SUCCESS
+[2025-10-25 12:17:07] ls -l  - SUCCESS
+[2025-10-25 12:17:11] ls -1 - ERROR: ls: [WinError 3] ������� �� ������� ����� ��������� ����: '-1'
+[2025-10-25 12:17:15] ls  - SUCCESS
+[2025-10-25 12:17:45] ls -l - ERROR: ls: [WinError 3] ������� �� ������� ����� ��������� ����: '-l'
+[2025-10-25 12:48:24] ls -l  - SUCCESS
+[2025-10-25 12:48:30] ls -l  - SUCCESS
+[2025-10-25 12:48:43] ls -l  - SUCCESS
+[2025-10-25 12:48:45] ls -1 - ERROR: ls: [WinError 3] ������� �� ������� ����� ��������� ����: '-1'
+[2025-10-25 12:48:52] ls -l  - SUCCESS
+[2025-10-25 12:49:00] cd .. - SUCCESS
+[2025-10-25 12:49:11] ls -l py_lab_2 - SUCCESS
+[2025-10-25 12:49:25] ls -l py_lab_2 - SUCCESS
+[2025-10-25 13:12:57] ls -l  - SUCCESS
+[2025-10-25 13:13:01] ls ee - ERROR: ls: [WinError 3] ������� �� ������� ����� ��������� ����: 'ee'
+[2025-10-25 13:13:24] ls c - ERROR: ls: [WinError 3] Системе не удается найти указанный путь: 'c'
+[2025-10-25 13:13:42] ls p - ERROR: ls: [WinError 3] ������� �� ������� ����� ��������� ����: 'p'
+[2025-10-25 13:14:09] ls od - ERROR: ls: [WinError 3] Системе не удается найти указанный путь: 'od'
+[2025-10-25 13:14:21] ls d - ERROR: ls: [WinError 3] Системе не удается найти указанный путь: 'd'
+[2025-10-25 13:14:23] ls d - ERROR: ls: [WinError 3] Системе не удается найти указанный путь: 'd'
+[2025-10-25 13:14:24] ls -l  - SUCCESS
+[2025-10-25 13:14:26] ls  - SUCCESS
+[2025-10-25 13:25:44] ls j - ERROR: ls: [WinError 3] Системе не удается найти указанный путь: 'j'
+[2025-10-25 13:31:23] ls -l  - SUCCESS
+[2025-10-25 13:31:25] ls k - ERROR: ls: [WinError 3] Системе не удается найти указанный путь: 'k'
+[2025-10-25 13:31:42] ls -- - ERROR: ls: [WinError 3] Системе не удается найти указанный путь: '--'
+[2025-10-25 13:31:46] ls -l e - ERROR: ls: [WinError 3] Системе не удается найти указанный путь: 'e'
+[2025-10-25 13:31:53] ls -l d - ERROR: ls: [WinError 3] Системе не удается найти указанный путь: 'd'
+[2025-10-25 13:41:55] ls  - SUCCESS
+[2025-10-25 13:42:06] ls -l  - SUCCESS
+[2025-10-25 13:44:10] ls -l  - SUCCESS
+[2025-10-25 13:44:11] ls  - SUCCESS
+[2025-10-25 13:44:16] ls -l  - SUCCESS
+[2025-10-25 13:45:05] ls  - SUCCESS
+[2025-10-25 13:45:09] ls -l  - SUCCESS
+[2025-10-25 13:45:39] ls  - SUCCESS
+[2025-10-25 13:46:31] ls  - SUCCESS
+[2025-10-25 13:46:43] ls -l  - SUCCESS
+[2025-10-25 13:51:33] ls -l  - SUCCESS
+[2025-10-25 14:04:08] ls -l  - SUCCESS
+[2025-10-25 14:05:28] ls -l  - SUCCESS
+[2025-10-25 14:05:59] ls  - SUCCESS
+[2025-10-25 14:06:02] ls -l  - SUCCESS
+[2025-10-25 14:07:11] ls -l  - SUCCESS
+[2025-10-25 14:08:07] ls -l  - ERROR: ls: [WinError 123] Синтаксическая ошибка в имени файла, имени папки или метке тома: 'C:\\Users\\ser20\\Documents\\py_lab_2\\ansi.py\t'
+[2025-10-25 14:09:56] ls -l  - SUCCESS
+[2025-10-25 14:10:23] ls -l  - SUCCESS
+[2025-10-25 14:14:44] ls -l  - SUCCESS
+[2025-10-25 14:15:03] ls -l  - SUCCESS
+[2025-10-25 14:15:13] ls -l  - SUCCESS
+[2025-10-25 14:15:22] ls -l  - SUCCESS
+[2025-10-25 14:16:20] ls -l  - SUCCESS
+[2025-10-25 14:25:50] ls -l  - SUCCESS
+[2025-10-25 14:25:52] ls k - ERROR: ls: [WinError 3] Системе не удается найти указанный путь: 'k'
+[2025-10-25 14:26:08] ls -l  - SUCCESS
+[2025-10-25 14:26:09] ls  - SUCCESS
+[2025-10-25 14:26:10] ls f - ERROR: ls: [WinError 3] Системе не удается найти указанный путь: 'f'
+[2025-10-25 14:28:50] cd g - ERROR: cd: [31mDirectory 'C:\Users\ser20\Documents\py_lab_2\g' doesn't exist[0m
+[2025-10-25 14:30:12] cat f - ERROR: cat: [Errno 2] No such file or directory: 'C:\\Users\\ser20\\Documents\\py_lab_2\\f'
+[2025-10-25 14:30:50] cat shell.log - ERROR: cat: 'utf-8' codec can't decode byte 0xcd in position 100: invalid continuation byte
+[2025-10-25 14:31:09] cat ansi.py - SUCCESS
+[2025-10-25 14:31:33] cat __payche__ - ERROR: cat: [Errno 2] No such file or directory: 'C:\\Users\\ser20\\Documents\\py_lab_2\\__payche__'
+[2025-10-25 14:32:07] cat __pycache__ - ERROR: cat: [31m'__pycache__' is a directory[0m
+[2025-10-25 14:32:45] [31mcat f[0m - ERROR: cat: [Errno 2] No such file or directory: 'C:\\Users\\ser20\\Documents\\py_lab_2\\f'
+[2025-10-26 21:16:10] cd y - ERROR: cd: [31mDirectory 'C:\Users\ser20\Documents\py_lab_2\y' doesn't exist[0m
+[2025-10-26 21:16:21] cd Documents - ERROR: cd: [31mDirectory 'C:\Users\ser20\Documents\py_lab_2\Documents' doesn't exist[0m
+[2025-10-26 21:16:27] cd .. - SUCCESS
+[2025-10-26 21:16:31] cd .. - SUCCESS
+[2025-10-26 21:16:37] cd Documents - SUCCESS
+[2025-10-26 21:16:42] cd ~ - SUCCESS
+[2025-10-26 21:17:01] cd Documents\py_lab_2 - SUCCESS
+[2025-10-26 21:17:05] cd ~ - SUCCESS
+[2025-10-26 21:18:26] cd Documents - SUCCESS
+[2025-10-26 21:20:27] cat py_lab_2 - ERROR: cat: [31m'py_lab_2' is a directory[0m
+[2025-10-26 21:20:38] ls  - SUCCESS
+[2025-10-26 21:20:41] ls -l  - SUCCESS
+[2025-10-26 21:23:58] cat 12-2.11.2024.py - SUCCESS
+[2025-10-26 21:25:02] cd .. - SUCCESS
+[2025-10-26 21:25:13] ls -l  - SUCCESS
+[2025-10-26 21:25:31] cat 17-02.11.2024.py - SUCCESS
+[2025-10-26 21:26:21] cat 17-02.11.2024.py - SUCCESS
+[2025-10-26 21:26:47] cat 17-02.11.2024.py - ERROR: cat: [Errno 2] No such file or directory: 'C:\\Users\\ser20\\Documents\\py_lab_2\\17-02.11.2024.py'
+[2025-10-26 21:26:51] cd .. - SUCCESS
+[2025-10-26 21:26:54] cat 17-02.11.2024.py - SUCCESS
+[2025-10-26 21:29:29] cd py_lab_2 - SUCCESS
+[2025-10-26 21:29:31] cat 17-02.11.2024.py - ERROR: cat: [Errno 2] No such file or directory: 'C:\\Users\\ser20\\Documents\\py_lab_2\\17-02.11.2024.py'
+[2025-10-26 21:29:53] cat py_lab_2 - ERROR: cat: [Errno 2] No such file or directory: 'C:\\Users\\ser20\\Documents\\py_lab_2\\py_lab_2'
+[2025-10-26 21:29:55] cd .. - SUCCESS
+[2025-10-26 21:29:57] cat py_lab_2 - ERROR: cat: [31m'py_lab_2' is a directory[0m
+[2025-10-26 21:32:14] cd .. - SUCCESS
+[2025-10-26 21:32:23] cat py_lab_2 - ERROR: cat: [31m'py_lab_2' is a directory[0m
+[2025-10-26 21:33:12] cd .. - SUCCESS
+[2025-10-26 21:33:18] [31mcat py_lab_2[0m - ERROR: cat: [31m'py_lab_2' is a directory[0m
+[2025-10-26 21:33:55] cd .. - SUCCESS
+[2025-10-26 21:33:57] cat py_lab_2 - ERROR: cat: [31m'py_lab_2' is aaa directory[0m
+[2025-10-26 21:34:47] cd .. - SUCCESS
+[2025-10-26 21:34:48] cat py_lab_2 - ERROR: cat: [31mpy_lab_2 is a directory[0m
+[2025-10-26 21:35:24] cd .. - SUCCESS
+[2025-10-26 21:35:25] cat py_lab_2 - ERROR: cat: py_lab_2 is a directory
+[2025-10-26 21:35:52] cd .. - SUCCESS
+[2025-10-26 21:35:53] cat py_lab_2 - ERROR: cat: [34mpy_lab_2 is a directory[0m
+[2025-10-26 21:36:35] cd .. - SUCCESS
+[2025-10-26 21:36:36] cat py_lab_2 - ERROR: cat: py_lab_2 [31mis a directory[0m
+[2025-10-26 21:38:28] cd .. - SUCCESS
+[2025-10-26 21:39:28] cd .. - SUCCESS
+[2025-10-26 21:39:30] cat py_lab_2 - ERROR: cat: [31mpy_lab_2is a directory[0m
+[2025-10-26 21:39:52] cd .. - SUCCESS
+[2025-10-26 21:39:53] cat py_lab_2 - ERROR: cat: py_lab_2is a directory
+[2025-10-26 21:40:32] cd .. - SUCCESS
+[2025-10-26 21:40:33] cat py_lab_2 - ERROR: cat: py_lab_2is a directory
+[2025-10-26 21:40:57] cd f - ERROR: cd: [31mDirectory 'C:\Users\ser20\Documents\py_lab_2\f' doesn't exist[0m
+[2025-10-26 21:41:12] cd f - ERROR: cd: Directory 'C:\Users\ser20\Documents\py_lab_2\f' doesn't exist
+[2025-10-26 21:45:48] cp tets test2 - ERROR: cp: Source 'tets' doesn't exist
+[2025-10-26 21:46:01] cp test test2 - ERROR: cp: [Errno 13] Permission denied: 'C:\\Users\\ser20\\Documents\\py_lab_2\\test'
+[2025-10-26 21:47:27] cp test test2 - ERROR: cp: [Errno 13] Permission denied: 'C:\\Users\\ser20\\Documents\\py_lab_2\\test'
+[2025-10-26 21:47:35] cp test test2 - ERROR: cp: [Errno 13] Permission denied: 'C:\\Users\\ser20\\Documents\\py_lab_2\\test'
+[2025-10-26 21:47:52] cd test - SUCCESS
+[2025-10-26 21:48:01] cp test1 test2 - ERROR: cp: Source 'test1' doesn't exist
+[2025-10-26 21:48:28] cp test1.txt test2.txt - SUCCESS
+[2025-10-26 21:49:27] cp test3 test4 - ERROR: cp: [Errno 13] Permission denied: 'C:\\Users\\ser20\\Documents\\py_lab_2\\test\\test3'
+[2025-10-26 21:54:08] cp test test2 - ERROR: cp: 'test' is a directory. Use -r for recursive copy
+[2025-10-26 21:54:35] cp -r test test2 - SUCCESS
+[2025-10-26 21:55:06] cp -r test test3 - SUCCESS
+[2025-10-26 21:55:31] cp test test2 - ERROR: cp: [Errno 13] Permission denied: 'C:\\Users\\ser20\\Documents\\py_lab_2\\test'
+[2025-10-26 21:56:06] cp test test2 - ERROR: cp: [Errno 13] Permission denied: 'C:\\Users\\ser20\\Documents\\py_lab_2\\test'
+[2025-10-26 21:56:30] cp test test2 - ERROR: cp: [Errno 13] Permission denied: 'C:\\Users\\ser20\\Documents\\py_lab_2\\test'
+[2025-10-26 22:07:56] mv test2 test - SUCCESS
+[2025-10-26 22:08:16] mv tets2 test - ERROR: mv: Source 'tets2' doesn't exist
+[2025-10-26 22:20:10] cp test test2 - ERROR: cp: [Errno 13] Permission denied: 'C:\\Users\\ser20\\Documents\\py_lab_2\\test'
+[2025-10-26 22:20:50] mv test\test1 test3 - ERROR: mv: Source 'test\test1' doesn't exist
+[2025-10-26 22:21:22] mv test\test1.txt test3 - ERROR: mv: Destination path 'C:\Users\ser20\Documents\py_lab_2\test3\test1.txt' already exists
+[2025-10-26 22:31:55] mv test\test1.txt test3 - ERROR: mv: [WinError 5] Отказано в доступе: 'C:\\Users\\ser20\\Documents\\py_lab_2\\test3'
+[2025-10-26 22:33:16] mv test3 test - ERROR: mv: [WinError 5] Отказано в доступе: 'C:\\Users\\ser20\\Documents\\py_lab_2\\test'
+[2025-10-26 22:38:55] mv test\test1.txt test3 - ERROR: mv: [WinError 5] Отказано в доступе: 'C:\\Users\\ser20\\Documents\\py_lab_2\\test3'
+[2025-10-26 22:41:58] mv test\test1.txt test3 - ERROR: mv: Destination path 'C:\Users\ser20\Documents\py_lab_2\test3\test1.txt' already exists
+[2025-10-26 22:43:47] mv test\test1.txt test3 - ERROR: mv: [WinError 5] Отказано в доступе: 'C:\\Users\\ser20\\Documents\\py_lab_2\\test3'
+[2025-10-26 22:47:40] mv test\test1.txt test3 - SUCCESS
+[2025-10-26 22:49:04] mv test\test1.txt test3 - ERROR: mv: Source 'test\test1.txt' doesn't exist
+[2025-10-26 22:49:39] mv test\test1.txt test3 - SUCCESS
+[2025-10-27 10:52:51] ls -l  - SUCCESS
+[2025-10-27 11:43:52] cd test - SUCCESS
+[2025-10-27 11:43:55] cd .. - SUCCESS
+[2025-10-27 11:44:00] ls -l  - SUCCESS
+[2025-10-27 11:44:04] ls  - SUCCESS
+[2025-10-27 11:44:29] mv test/test2.txt test4 - SUCCESS
+[2025-10-27 11:45:26] mv test\test2\test2.txt test4 - SUCCESS
+[2025-10-27 11:46:22] cp test\test2 test4 - ERROR: cp: [Errno 13] Permission denied: 'C:\\Users\\ser20\\Documents\\py_lab_2\\test\\test2'
+[2025-10-27 11:46:42] cp -r test/test2 test4 - ERROR: cp: [WinError 183] Невозможно создать файл, так как он уже существует: 'C:\\Users\\ser20\\Documents\\py_lab_2\\test4'
+[2025-10-27 11:51:03] cp -r test/test2 test4 - SUCCESS
+[2025-10-27 12:04:20] ls  - SUCCESS
+[2025-10-27 12:04:30] cat ansi - ERROR: cat: [Errno 2] No such file or directory: 'C:\\Users\\ser20\\Documents\\py_lab_2\\ansi'
+[2025-10-27 12:04:39] cat ansi.py - SUCCESS
+[2025-10-27 13:12:06] ls  - SUCCESS
+[2025-10-27 13:12:09] ls -l  - SUCCESS
+[2025-10-27 13:12:18] ls  - SUCCESS
+[2025-10-27 21:35:33] cd .. - SUCCESS
+[2025-10-27 21:36:13] cd d - ERROR: cd: Directory 'C:\Users\ser20\Documents\py_lab_2\d' doesn't exist
+[2025-10-27 21:36:44] cd f - ERROR: cd: Directory 'C:\Users\ser20\Documents\py_lab_2\f' doesn't exist
+[2025-10-27 21:42:14] cd .. - SUCCESS
+[2025-10-27 21:42:16] cd g - ERROR: cd: Directory 'C:\Users\ser20\Documents\g' doesn't exist
+[2025-10-27 21:43:02] cd r - ERROR: cd: Directory 'C:\Users\ser20\Documents\py_lab_2\r' doesn't exist
+[2025-10-27 21:55:00] cd .. - SUCCESS
+[2025-10-27 21:55:12] cd g - ERROR: cd: Directory 'C:\Users\ser20\Documents\g' doesn't exist
+[2025-10-27 22:04:11] cd test - SUCCESS
+[2025-10-27 22:04:14] cd ~ - SUCCESS
+[2025-10-27 22:04:16] cd f - ERROR: cd: Directory 'C:\Users\ser20\f' doesn't exist
+[2025-10-27 22:04:24] cd Documents - SUCCESS
+[2025-10-27 22:04:45] cat lab_fund_3.c - SUCCESS
+[2025-10-27 22:05:01] cd py_lab_2 - SUCCESS
+[2025-10-27 22:05:11] mv test3 test4 - SUCCESS
+[2025-10-27 22:09:14] rm .history - SUCCESS
+[2025-10-27 22:09:22] rm test4 - ERROR: rm: [WinError 5] Отказано в доступе: 'C:\\Users\\ser20\\Documents\\py_lab_2\\test4'
+[2025-10-27 22:09:37] rm -r test4 - SUCCESS
+[2025-10-27 22:25:28] cd d - ERROR: cd: Directory 'C:\Users\ser20\Documents\py_lab_2\d' doesn't exist
+[2025-10-27 22:26:25] rm s - ERROR: rm: Target 's' doesn't exist
+[2025-10-27 22:26:40] rm test4 - ERROR: rm: Target 'test4' doesn't exist
+[2025-10-27 22:26:49] rm test - ERROR: rm: [WinError 5] Отказано в доступе: 'C:\\Users\\ser20\\Documents\\py_lab_2\\test'
+[2025-10-27 22:28:07] rm test - ERROR: rm: Отказано в доступе: 'C:\\Users\\ser20\\Documents\\py_lab_2\\test'
+[2025-10-27 22:37:49] rm test - ERROR: rm: [WinError 5] Отказано в доступе: 'C:\\Users\\ser20\\Documents\\py_lab_2\\test'
+[2025-10-29 22:45:19] cd test - SUCCESS
+[2025-10-29 22:45:22] ls -l  - SUCCESS
+[2025-10-29 22:45:38] mv test2 test4 - SUCCESS
+[2025-10-29 22:45:41] ls -l  - SUCCESS
+[2025-10-29 22:48:02] cat test4 - ERROR: cat: test4is a directory
+[2025-10-29 22:48:08] cd test4 - SUCCESS
+[2025-10-29 22:48:11] ls -l  - SUCCESS
+[2025-10-29 22:48:56] cd .. - SUCCESS
+[2025-10-29 22:49:00] ls -l  - SUCCESS
+[2025-10-29 22:50:13] mv test2 test5 - ERROR: mv: Source 'test2' doesn't exist
+[2025-10-29 22:50:29] mv test2.txt test5.txt - SUCCESS
+[2025-10-29 22:50:34] cat test5 - ERROR: cat: [Errno 2] No such file or directory: 'C:\\Users\\ser20\\Documents\\py_lab_2\\test\\test5'
+[2025-10-29 22:50:39] cat test5.txt - SUCCESS
+[2025-10-29 22:56:32] ls  - SUCCESS
+[2025-10-29 22:56:35] ls -l  - SUCCESS
+[2025-10-29 22:57:00] cp tets test/test3 - ERROR: cp: Source 'tets' doesn't exist
+[2025-10-29 22:57:10] cp test test/test3 - ERROR: cp: [Errno 13] Permission denied: 'C:\\Users\\ser20\\Documents\\py_lab_2\\test'
+[2025-10-29 23:09:12] rm -r test\test4 - SUCCESS
+[2025-10-31 16:51:26] ls -l  - SUCCESS
+[2025-10-31 17:06:04] ls -l  - SUCCESS
+[2025-10-31 19:15:16] ls  - SUCCESS
+[2025-10-31 19:15:19] ls -l  - SUCCESS
+[2025-10-31 19:16:41] ls -l  - SUCCESS
+[2025-10-31 19:16:45] history 10 - SUCCESS
+[2025-10-31 19:17:41] cp test test4 - ERROR: cp: [Errno 13] Permission denied: 'C:\\Users\\ser20\\Documents\\py_lab_2\\test'
+[2025-10-31 19:17:51] cp -r test test4 - SUCCESS
+[2025-10-31 19:17:58] undo - SUCCESS
+[2025-10-31 20:47:18] ls -l  - SUCCESS
+[2025-10-31 20:47:22] history 10 - SUCCESS
+[2025-10-31 20:48:21] history 10 - SUCCESS
+[2025-10-31 21:07:24] ls -l  - SUCCESS
+[2025-10-31 21:07:27] history 10 - SUCCESS
+[2025-10-31 21:07:37] history 10 - SUCCESS
+[2025-10-31 21:12:54] ls -l  - SUCCESS
+[2025-10-31 21:12:58] history 10 - SUCCESS
+[2025-10-31 21:13:32] ls -l  - SUCCESS
+[2025-10-31 21:13:36] history 10 - SUCCESS
+[2025-10-31 21:14:26] ls -l  - SUCCESS
+[2025-10-31 21:14:30] history 10 - SUCCESS
+[2025-10-31 21:19:44] ls -l  - SUCCESS
+[2025-10-31 21:19:47] history 10 - ERROR: history: 'time'
+[2025-10-31 21:21:57] history 10 - ERROR: history: 'time'
+[2025-10-31 21:23:51] history 10 - ERROR: history: 'timestamp'
+[2025-10-31 21:24:53] history 10 - ERROR: history: 'timestamp'
+[2025-10-31 21:25:19] history 10 - ERROR: history: 'timestamp'
+[2025-10-31 21:26:08] history 10 - ERROR: history: 'timestamp'
+[2025-10-31 21:27:02] ls -l  - SUCCESS
+[2025-10-31 21:27:06] history 10 - SUCCESS
+[2025-10-31 21:27:15] history 10 - SUCCESS
+[2025-10-31 21:27:29] history 10 - SUCCESS
+[2025-10-31 21:28:49] history 10 - ERROR: history: 'time'
+[2025-10-31 21:29:47] ls -l  - SUCCESS
+[2025-10-31 21:29:50] history 10 - SUCCESS
+[2025-10-31 21:31:09] ls -l  - SUCCESS
+[2025-10-31 21:31:12] history 10 - SUCCESS
+[2025-10-31 21:33:08] history 10 - SUCCESS
+[2025-10-31 21:48:34] ls -l  - SUCCESS
+[2025-10-31 21:48:38] history 10 - SUCCESS
+[2025-10-31 21:48:58] cp test test4 - ERROR: cp: [Errno 13] Permission denied: 'C:\\Users\\ser20\\Documents\\py_lab_2\\test'
+[2025-10-31 21:49:04] cp -r test test4 - SUCCESS
+[2025-10-31 21:49:08] undo - SUCCESS
+[2025-10-31 22:04:10] history 10 - SUCCESS
+[2025-10-31 22:18:17] ls -l  - SUCCESS
+[2025-10-31 22:18:26] cd .. - SUCCESS
+[2025-10-31 22:18:35] ls  - SUCCESS
+[2025-10-31 22:18:48] cat ut01.txt - SUCCESS
+[2025-10-31 22:19:59] cp ut01.txt py_lab_2\ut01.txt - SUCCESS
+[2025-10-31 22:20:07] rm ut01.txt - SUCCESS
+[2025-10-31 22:21:05] cd py_lab_2 - SUCCESS
+[2025-10-31 22:21:23] cp ut01.txt ..\ - SUCCESS
+[2025-10-31 22:21:31] cd .. - SUCCESS
+[2025-10-31 22:21:32] ls  - SUCCESS
+[2025-10-31 22:21:44] history 10 - SUCCESS
+[2025-10-31 22:22:03] ls -l  - SUCCESS
+[2025-10-31 22:22:07] history 10 - SUCCESS
+[2025-10-31 22:22:11] undo - SUCCESS
+[2025-10-31 22:22:16] undo - SUCCESS
+[2025-10-31 22:22:37] cp ut01.txt ut001.txt - ERROR: cp: File 'ut01.txt' doesn't exist
+[2025-10-31 22:22:56] ls  - SUCCESS
+[2025-10-31 22:23:27] history 10 - SUCCESS
+[2025-10-31 22:23:44] history 1 - SUCCESS
+[2025-10-31 22:23:50] history 3 - SUCCESS
+[2025-10-31 22:23:54] history 10 - SUCCESS
+[2025-10-31 22:24:17] ls -l  - SUCCESS
+[2025-10-31 22:24:20] history 10 - SUCCESS
+[2025-10-31 22:24:25] history 20 - SUCCESS
+[2025-10-31 22:24:59] history 10 - SUCCESS
+[2025-10-31 22:25:03] history 3 - SUCCESS
+[2025-10-31 22:25:53] history 10 - SUCCESS
+[2025-10-31 22:26:27] cd .. - SUCCESS
+[2025-10-31 22:26:31] history 10 - SUCCESS
+[2025-10-31 22:26:35] history 3 - SUCCESS
+[2025-10-31 22:26:39] history 12 - SUCCESS
+[2025-10-31 22:26:43] history 1 - SUCCESS
+[2025-10-31 22:27:04] cd .. - SUCCESS
+[2025-10-31 22:27:09] history 10 - SUCCESS
+[2025-10-31 22:27:13] history 1 - SUCCESS
+[2025-10-31 22:27:16] history 12 - SUCCESS
+[2025-10-31 22:27:20] history 2 - SUCCESS
+[2025-10-31 22:27:23] history 10 - SUCCESS
+[2025-10-31 22:27:26] history 10 - SUCCESS
+[2025-10-31 22:27:30] ls -l  - SUCCESS
+[2025-10-31 22:27:34] history 10 - SUCCESS
+[2025-10-31 22:27:46] cp ut01.txt ut.txt - ERROR: cp: File 'ut01.txt' doesn't exist
+[2025-10-31 22:28:08] cd py_lab_2 - SUCCESS
+[2025-10-31 22:28:10] cp ut01.txt ut.txt - SUCCESS
+[2025-10-31 22:28:18] history 10 - SUCCESS
+[2025-10-31 22:28:22] history 1 - SUCCESS
+[2025-10-31 22:28:25] history 10 - SUCCESS
+[2025-10-31 22:29:05] history 10 - SUCCESS
+[2025-10-31 22:29:07] ls -l  - SUCCESS
+[2025-10-31 22:29:20] cp ut01.txt ut.txt - SUCCESS
+[2025-10-31 22:29:33] cp ut.txt ut_2.txt - SUCCESS
+[2025-10-31 22:29:38] history 10 - SUCCESS
+[2025-10-31 22:29:42] undo - SUCCESS
+[2025-10-31 22:29:45] history 10 - SUCCESS
+[2025-10-31 22:38:09] history 10 - SUCCESS
+[2025-10-31 22:38:44] history 10 - SUCCESS
+[2025-10-31 22:38:46] undo - SUCCESS
+[2025-10-31 22:38:51] history 10 - SUCCESS
+[2025-11-01 13:15:12] cp test test4 - ERROR: cp: [Errno 13] Permission denied: 'C:\\Users\\ser20\\Documents\\py_lab_2\\test'
+[2025-11-01 13:15:38] cp -r test test4 - SUCCESS
+[2025-11-01 13:16:40] cp -r test test4/test1 - SUCCESS
+[2025-11-01 19:39:40] ls -l  - SUCCESS
+[2025-11-01 19:39:45] history 10 - SUCCESS
+[2025-11-01 19:39:50] cd .. - SUCCESS
+[2025-11-01 19:39:56] rm e - ERROR: rm: File 'e' doesn't exist
+[2025-11-02 00:14:56] ls -l  - SUCCESS
