@@ -200,7 +200,7 @@ class System_Shell:
                 raise FileNotFoundError(f"File '{src}' doesn't exist")
             
             if os.path.isdir(dst_path):
-    dst_path = os.path.join(dst_path, os.path.basename(src_path))
+                dst_path = os.path.join(dst_path, os.path.basename(src_path))
 
             if os.path.isdir(src_path) and not flag_r:
                 raise IsADirectoryError(f"'{src}' is a directory")
@@ -336,13 +336,13 @@ class System_Shell:
                 else:
                     status = "ERROR"
                     
-                timestamp = datetime.fromisoformat(info['time']).strftime('%H:%M:%S')
+                time = datetime.fromisoformat(info['time']).strftime('%H:%M:%S')
                 args = []
                 for arg in info['args']:
                     args.append(str(arg))
                 str_args = ' '.join(args)
                     
-                print(f"{i} {status} [{timestamp}] {info['command']} {str_args}")
+                print(f"{i} {status} [{time}] {info['command']} {str_args}")
                 i += 1
                 
             self.add_log(f"history {count}")
@@ -476,7 +476,7 @@ class System_Shell:
                         count = 5
                     self.show_history(count)
                 elif cmd == "undo":
-                    self.undo_last()
+                    self.undo()
                 else:
                     print(f"Unknown command: {cmd}")
             except KeyboardInterrupt:
@@ -488,3 +488,4 @@ if __name__ == "__main__":
     shell = System_Shell()
 
     shell.run()
+
