@@ -200,13 +200,10 @@ class System_Shell:
                 raise FileNotFoundError(f"File '{src}' doesn't exist")
             
             if os.path.isdir(dst_path):
-                dst_path = os.path.join(dst_path, src_path.name)
-            
-            if os.path.exists(dst_path):
-                if os.path.isfile(dst_path):
-                    os.remove(dst_path)
-                elif os.path.isdir(dst_path):
-                    shutil.rmtree(dst_path)
+    dst_path = os.path.join(dst_path, os.path.basename(src_path))
+
+            if os.path.isdir(src_path) and not flag_r:
+                raise IsADirectoryError(f"'{src}' is a directory")
 
             if flag_r and os.path.isdir(src_path):
                 shutil.copytree(src_path, dst_path)
@@ -240,15 +237,9 @@ class System_Shell:
                 raise FileNotFoundError(f"File '{src}' doesn't exist")
             
             if os.path.isdir(dst_path):
-                dst_path = os.path.join(dst_path, src_path.name)
-            
-            if os.path.exists(dst_path):
-                if os.path.isfile(dst_path):
-                    os.remove(dst_path)
-                elif os.path.isdir(dst_path):
-                    shutil.rmtree(dst_path)
-            
-            shutil.move(src_path, dst_path)
+                dst_path = os.path.join(dst_path, os.path.basename(src_path))
+
+            shutil.move(src_path, dst_path) 
             self.add_log(f"mv {src} {dst}")
             self.add_to_history('mv', [src, dst], other_data={'src_path': src_path, 'dst_path': dst_path})
         
@@ -281,18 +272,33 @@ class System_Shell:
             if not os.path.exists(self.trash_dir):
                 os.makedirs(self.trash_dir)
 
-            timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-            trash_path = os.path.join(self.trash_dir, f"{file}_{timestamp}")
+            time = datetime.now().strftime('%Y%m%d_%H%M%S')
+            base_name = os.path.basename(path)
+            trash_path = os.path.join(self.trash_dir, f"{base_name}_{time}")
+
+            rel_path = os.path.relpath(path, self.current_dir)
+            if os.path.dirname(rel_path) and os.path.dirname(rel_path) != '.':
+                trash_subdir = os.path.join(self.trash_dir, os.path.dirname(rel_path))
+                if not os.path.exists(trash_subdir):
+                    os.makedirs(trash_subdir, exist_ok=True)
+                trash_path = os.path.join(trash_subdir, f"{base_name}_{time}")
 
             if flag_r and os.path.isdir(path):
-                confirm = input(f"Remove directory '{file}' recursivly? (y/n): ")
+                confirm = input(f"Remove directory '{file}' recursively? (y/n): ")
                 if confirm.lower() == 'y':
                     shutil.move(path, trash_path)
                 else:
                     print("Operation cancelled")
                     return
             else:
-                shutil.move(path, trash_path)
+                if os.path.isdir(path):
+                    raise IsADirectoryError(f"'{file}' is a directory")
+                
+                try:
+                    shutil.copy2(path, trash_path)
+                    os.remove(path)
+                except Exception as e:
+                    shutil.move(path, trash_path)
             
             self.add_log(f"rm {'-r ' if flag_r else ''}{file}")
             self.add_to_history('rm', [file, '-r'] if flag_r else [file], other_data={'path': path, 'trash_path': trash_path})
@@ -347,7 +353,7 @@ class System_Shell:
             self.add_log(f"history {count}", False, error_msg)
             self.add_to_history('history', [str(count)], False)
 
-    def undo_last(self):
+    def undo(self):
         '''
             Функция которая отменяет результат выполнения последней команды.(последней команды со статусом success).
             Поддерживает отмену команд: cp, rm, mv.
@@ -384,7 +390,6 @@ class System_Shell:
                 src_path = other_data.get('src_path')
                 dst_path = other_data.get('dst_path')
                 if dst_path and os.path.exists(dst_path) and src_path:
-                    if not os.path.exists(src_path):
                         shutil.move(dst_path, src_path)
             
             elif command == 'rm':
@@ -411,7 +416,7 @@ class System_Shell:
         '''Функция которая запускает основной цикл выполнения программы.
             Также функция обрабатывает пользовательский ввод, парсит команды и в соответствии с результатами парсинга вызывает соответствующие функции.
         '''
-        print("System_Shell started. Type 'exit' to quit.")
+        print("System_Shell start. Type 'exit' to quit.")
         while True:
             try:
                 command = input(f"{Colors.BRIGHT_GREEN}{self.current_dir}{Colors.RESET} $ ").strip().split()
@@ -481,4 +486,5 @@ class System_Shell:
 
 if __name__ == "__main__":
     shell = System_Shell()
+
     shell.run()
