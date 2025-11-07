@@ -338,3 +338,53 @@
 [2025-11-01 19:39:50] cd .. - SUCCESS
 [2025-11-01 19:39:56] rm e - ERROR: rm: File 'e' doesn't exist
 [2025-11-02 00:14:56] ls -l  - SUCCESS
+[2025-11-02 15:43:19] ls  - SUCCESS
+[2025-11-02 15:43:22] cd .. - SUCCESS
+[2025-11-02 15:43:25] ls  - SUCCESS
+[2025-11-02 15:44:31] cp 9_v21.txt python_lab1 - SUCCESS
+[2025-11-02 15:44:43] cd python_la1 - ERROR: cd: Directory 'C:\Users\ser20\Documents\python_la1' doesn't exist
+[2025-11-02 15:44:57] cd python_lab1 - SUCCESS
+[2025-11-02 15:44:58] ls  - SUCCESS
+[2025-11-02 17:37:51] cd .. - SUCCESS
+[2025-11-02 17:37:54] ls  - SUCCESS
+[2025-11-02 17:38:06] rm ut01.txt - SUCCESS
+[2025-11-02 17:38:30] undo - SUCCESS
+[2025-11-02 17:38:56] ls  - SUCCESS
+[2025-11-02 17:39:23] rm -r moss-master - SUCCESS
+[2025-11-02 17:39:40] undo - SUCCESS
+[2025-11-02 17:40:43] cd .. - SUCCESS
+[2025-11-02 17:40:50] rm ut01.txt - SUCCESS
+[2025-11-02 17:41:03] ls  - SUCCESS
+[2025-11-02 17:41:28] undo - SUCCESS
+[2025-11-02 17:41:31] history 5 - SUCCESS
+[2025-11-02 17:41:48] ls  - SUCCESS
+[2025-11-02 17:43:48] cd .. - SUCCESS
+[2025-11-02 17:43:53] rm ut01.txt - SUCCESS
+[2025-11-02 17:44:41] ls .trash - SUCCESS
+[2025-11-02 17:45:58] undo - SUCCESS
+[2025-11-02 17:46:03] ls .trash - SUCCESS
+[2025-11-02 17:52:53] cd .. - SUCCESS
+[2025-11-02 17:53:00] rm ut01.txt - SUCCESS
+[2025-11-02 17:53:07] ls .trash - SUCCESS
+[2025-11-07 19:43:08] cd .. - SUCCESS
+[2025-11-07 19:43:13] ls  - SUCCESS
+[2025-11-07 19:43:28] cat untitled-3.py - SUCCESS
+[2025-11-07 19:43:31] cat r - ERROR: cat: [Errno 2] No such file or directory: 'C:\\Users\\ser20\\Documents\\r'
+[2025-11-07 21:41:23] cd .. - SUCCESS
+[2025-11-07 21:41:29] history 5 - SUCCESS
+[2025-11-07 21:42:03] rm ut01.txt - ERROR: rm: File 'ut01.txt' doesn't exist
+[2025-11-07 21:42:06] ls  - SUCCESS
+[2025-11-07 21:42:26] rm RUS.odp - SUCCESS
+[2025-11-07 21:42:30] history 5 - SUCCESS
+[2025-11-07 21:43:18] cd .. - SUCCESS
+[2025-11-07 21:43:21] rm RUS.odp - ERROR: rm: File 'RUS.odp' doesn't exist
+[2025-11-07 21:43:29] ls  - SUCCESS
+[2025-11-07 21:43:54] rm ppp.py - SUCCESS
+[2025-11-07 21:43:56] undo - SUCCESS
+[2025-11-07 21:44:00] history 5 - SUCCESS
+[2025-11-07 21:44:57] cd .. - SUCCESS
+[2025-11-07 21:44:58] ls  - SUCCESS
+[2025-11-07 21:45:05] rm ppp.py - SUCCESS
+[2025-11-07 21:45:08] undo - SUCCESS
+[2025-11-07 21:45:10] history 5 - SUCCESS
+[2025-11-07 21:45:36] cp f t - ERROR: cp: File 'f' doesn't exist
