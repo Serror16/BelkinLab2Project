@@ -1,14 +1,5 @@
 [
     {
-        "time": "2025-11-20T23:48:26.312541",
-        "command": "cat",
-        "args": [
-            "parser.py"
-        ],
-        "status": false,
-        "other_data": {}
-    },
-    {
         "time": "2025-11-20T23:48:41.360365",
         "command": "cat",
         "args": [
@@ -87,6 +78,13 @@
             "ff"
         ],
         "status": false,
+        "other_data": {}
+    },
+    {
+        "time": "2025-11-21T11:42:24.534050",
+        "command": "ls",
+        "args": [],
+        "status": true,
         "other_data": {}
     }
 ]
