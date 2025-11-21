@@ -389,3 +389,19 @@
 [2025-11-07 21:45:10] history 5 - SUCCESS
 [2025-11-07 21:45:36] cp f t - ERROR: cp: File 'f' doesn't exist
 [2025-11-07 21:59:57] cd .. - SUCCESS
+[2025-11-20 23:17:22] cd .. - SUCCESS
+[2025-11-20 23:20:48] cd .. - SUCCESS
+[2025-11-20 23:47:54] ls  - SUCCESS
+[2025-11-20 23:47:58] cd .. - SUCCESS
+[2025-11-20 23:48:11] cd BelkinLab2Project - SUCCESS
+[2025-11-20 23:48:26] cat parser.py - ERROR: cat: [Errno 2] No such file or directory: 'C:\\Users\\ser20\\Documents\\BelkinLab2Project\\parser.py'
+[2025-11-20 23:48:41] cat src/parser.py - SUCCESS
+[2025-11-20 23:49:10] cp src/parser.py sef - SUCCESS
+[2025-11-21 00:20:14] cd .. - SUCCESS
+[2025-11-21 00:20:53] ls  - SUCCESS
+[2025-11-21 00:22:01] ls  - SUCCESS
+[2025-11-21 00:22:13] ls  - SUCCESS
+[2025-11-21 00:23:21] cp ds sd - ERROR: cp: File 'ds' doesn't exist
+[2025-11-21 00:23:29] cp cp cp - ERROR: cp: File 'cp' doesn't exist
+[2025-11-21 00:23:36] cd ff - ERROR: cd: Directory 'C:\Users\ser20\Documents\BelkinLab2Project\ff' doesn't exist
+[2025-11-21 00:23:41] cat ff - ERROR: cat: [Errno 2] No such file or directory: 'C:\\Users\\ser20\\Documents\\BelkinLab2Project\\ff'

@@ -1,1 +1,92 @@
-[{"time": "2025-11-02T00:02:16.266573", "command": "ls", "args": [], "status": true, "current_dir": "C:\\Users\\ser20\\Documents\\py_lab_2", "other_data": {}}, {"time": "2025-11-02T00:06:15.024393", "command": "ls", "args": [], "status": true, "current_dir": "C:\\Users\\ser20\\Documents\\py_lab_2", "other_data": {}}, {"time": "2025-11-02T00:06:17.713151", "command": "cd", "args": [".."], "status": true, "current_dir": "C:\\Users\\ser20\\Documents", "other_data": {}}, {"time": "2025-11-02T00:06:25.282292", "command": "ls", "args": [], "status": true, "current_dir": "C:\\Users\\ser20\\Documents", "other_data": {}}, {"time": "2025-11-02T00:07:01.064044", "command": "cd", "args": ["py_lab_2"], "status": true, "current_dir": "C:\\Users\\ser20\\Documents\\py_lab_2", "other_data": {}}, {"time": "2025-11-02T00:07:08.943633", "command": "cat", "args": ["trash"], "status": false, "current_dir": "C:\\Users\\ser20\\Documents\\py_lab_2", "other_data": {}}, {"time": "2025-11-02T00:07:21.046034", "command": "history", "args": ["5"], "status": true, "current_dir": "C:\\Users\\ser20\\Documents\\py_lab_2", "other_data": {}}, {"time": "2025-11-02T00:07:33.794292", "command": "undo", "args": [], "status": true, "current_dir": "C:\\Users\\ser20\\Documents\\py_lab_2", "other_data": {}}, {"time": "2025-11-02T00:12:03.000740", "command": "ls", "args": [], "status": true, "current_dir": "C:\\Users\\ser20\\Documents\\py_lab_2", "other_data": {}}, {"time": "2025-11-02T00:14:56.662337", "command": "ls", "args": [], "status": true, "current_dir": "C:\\Users\\ser20\\Documents\\py_lab_2", "other_data": {}}]
+[
+    {
+        "time": "2025-11-20T23:48:26.312541",
+        "command": "cat",
+        "args": [
+            "parser.py"
+        ],
+        "status": false,
+        "other_data": {}
+    },
+    {
+        "time": "2025-11-20T23:48:41.360365",
+        "command": "cat",
+        "args": [
+            "src/parser.py"
+        ],
+        "status": true,
+        "other_data": {}
+    },
+    {
+        "time": "2025-11-20T23:49:10.255625",
+        "command": "cp",
+        "args": [
+            "src/parser.py",
+            "sef"
+        ],
+        "status": true,
+        "other_data": {
+            "src_path": "C:\\Users\\ser20\\Documents\\BelkinLab2Project\\src/parser.py",
+            "dst_path": "C:\\Users\\ser20\\Documents\\BelkinLab2Project\\sef"
+        }
+    },
+    {
+        "time": "2025-11-21T00:20:53.738140",
+        "command": "ls",
+        "args": [],
+        "status": true,
+        "other_data": {}
+    },
+    {
+        "time": "2025-11-21T00:22:01.509511",
+        "command": "ls",
+        "args": [],
+        "status": true,
+        "other_data": {}
+    },
+    {
+        "time": "2025-11-21T00:22:13.622001",
+        "command": "ls",
+        "args": [],
+        "status": true,
+        "other_data": {}
+    },
+    {
+        "time": "2025-11-21T00:23:21.694618",
+        "command": "cp",
+        "args": [
+            "ds",
+            "sd"
+        ],
+        "status": false,
+        "other_data": {}
+    },
+    {
+        "time": "2025-11-21T00:23:29.452793",
+        "command": "cp",
+        "args": [
+            "cp",
+            "cp"
+        ],
+        "status": false,
+        "other_data": {}
+    },
+    {
+        "time": "2025-11-21T00:23:36.064476",
+        "command": "cd",
+        "args": [
+            "ff"
+        ],
+        "status": false,
+        "other_data": {}
+    },
+    {
+        "time": "2025-11-21T00:23:41.089712",
+        "command": "cat",
+        "args": [
+            "ff"
+        ],
+        "status": false,
+        "other_data": {}
+    }
+]
